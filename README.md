@@ -1,9 +1,9 @@
-# NetPulse: Network Traffic Analyzer & Visualizer
+#  Network Traffic Analyzer & Visualizer
 
 A Python-based cybersecurity tool that captures live network packets, logs them into a structured format, and provides visual analytics of network protocols.
 
 ## 🚀 Overview
-NetPulse is designed to provide visibility into local network traffic. By putting the network interface into **Promiscuous Mode**, it "listens" to passing data, dissects IP headers, and identifies protocols like TCP, UDP, and ICMP.
+THis project designed to provide visibility into local network traffic. By putting the network interface into **Promiscuous Mode**, it "listens" to passing data, dissects IP headers, and identifies protocols like TCP, UDP, and ICMP.
 
 ### Key Features
 * **Real-time Sniffing:** Live console output of source/destination IPs and protocols.
@@ -66,12 +66,3 @@ python src/visualize.py
 
 ---
 
-## 📊 Learning Outcomes
-
-* **OSI Model:** Deep dive into Layer 3 (Network) and Layer 4 (Transport) headers.
-* **Packet Dissection:** Using `Scapy` to parse raw binary data.
-* **Data Science in Security:** Transforming unstructured network traffic into a structured CSV for analysis.
-
-## ⚠️ Disclaimer
-
-This tool is for **educational purposes only**. Only use it on networks you own or have explicit permission to monitor.
